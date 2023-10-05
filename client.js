@@ -20,3 +20,9 @@ const closeModal = () => {
 button.addEventListener("click", () => {
     modal.classList.remove("hidden");
 });
+
+document.onclick = (e) => {
+    if (e.target === modal) {
+        closeModal();
+    }
+}
