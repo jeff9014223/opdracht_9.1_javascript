@@ -9,7 +9,7 @@ form.addEventListener("submit", (e) => {
     if (parseInt(age) >= 18) {
         closeModal();
     } else {
-        alert("Je moet ouder dan 18 zijn")
+        alert("Je moet ouder dan 18 zijn");
     }
 });
 
